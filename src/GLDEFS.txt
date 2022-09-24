@@ -6,5 +6,8 @@
 //#include gldefs/Exterminator.txt
 #include gldefs/FlamerZombie.txt
 #include gldefs/RailArachno.txt
+#include GLDEFS/Fire.txt
+#include GLDEFS/Squire.txt
+#include GLDEFS/BloodSkull.txt
 
 

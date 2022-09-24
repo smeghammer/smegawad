@@ -1,3 +1,10 @@
+cluster 1
+{
+	entertext = "start ch 1"
+	exittext = "start ch 1"
+}
+
+
 episode MAP01
 {
 	name="The Nameless City"
@@ -13,11 +20,29 @@ episode MAP21
 	name="The Other Gods"
 }
 
-map MAP01 "Going up?"
+map MAP01 "The Gathering Dusk"
 {
 	levelnum=1
 	next="MAP02"
 	sky1 = "CTYSKY01"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map MAP02 "Twilight Threatens"
+{
+	levelnum=2
+	next="MAP03"
+	sky1 = "CTYSKY06"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map MAP03 "The Crushing Darkness"
+{
+	levelnum=3
+	next="MAP04"
+	sky1 = "CTYSKY08"
 	music = "D_IN_CIT"
 	NoJump
 }

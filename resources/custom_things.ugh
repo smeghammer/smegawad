@@ -40,6 +40,11 @@ thing 15501 c - 16 FSZWE1   "Female Scientist 2"
 thing 15503 c - 16 SCZAE1   "Zombie Scientist"
 thing 15502 c - 16 SCZHE1   "Zombie Scientist 3"
 
+thing 10001 c - 16 FLMSML   "Flames (sml)"
+thing 10002 c - 16 FLMMED   "Flames (med)"
+thing 10003 c - 16 FLMLRG   "Flames (lrg)"
+
+
 
 
 # HERETIC
