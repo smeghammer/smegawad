@@ -1,0 +1,32 @@
+episode MAP01
+{
+	name="The Nameless City"
+}
+
+episode MAP11
+{
+	name="The Crawling Chaos"
+}
+
+episode MAP21
+{
+	name="The Other Gods"
+}
+
+map MAP01 "Going up?"
+{
+	levelnum=1
+	next="MAP02"
+	sky1 = "CTYSKY01"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map BAK "TEST?"
+{
+	levelnum=50
+	next="MAP16"
+	sky1 = "OSKY11"
+	music = "D_IN_CIT"
+	NoJump
+}
