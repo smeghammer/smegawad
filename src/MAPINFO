@@ -1,57 +1,254 @@
 cluster 1
 {
 	entertext = "start ch 1"
-	exittext = "start ch 1"
+	exittext = "end ch 1"
 }
 
 
-episode MAP01
+episode gatheringdusk
 {
 	name="The Nameless City"
 }
 
-episode MAP11
+episode roadofsorrows
 {
 	name="The Crawling Chaos"
 }
 
-episode MAP21
+episode baronsdemesne
 {
 	name="The Other Gods"
 }
 
-map MAP01 "The Gathering Dusk"
+
+
+map gatheringdusk "The Gathering Dusk"
 {
 	levelnum=1
-	next="MAP02"
+	next="thefoundry"
 	sky1 = "CTYSKY01"
 	music = "D_IN_CIT"
 	NoJump
 }
 
-map MAP02 "Twilight Threatens"
+map thefoundry "The Foundry"
 {
 	levelnum=2
-	next="MAP03"
+	next="containmentandresearch"
 	sky1 = "CTYSKY06"
 	music = "D_IN_CIT"
 	NoJump
 }
 
-map MAP03 "The Crushing Darkness"
+map containmentandresearch "Containment and Research"
 {
 	levelnum=3
-	next="MAP04"
+	next="factoryship"
 	sky1 = "CTYSKY08"
 	music = "D_IN_CIT"
 	NoJump
 }
 
-map BAK "TEST?"
+map factoryship "Factory Ship"
 {
-	levelnum=50
-	next="MAP16"
-	sky1 = "OSKY11"
+	levelnum=4
+	next="darksecrets"
+	sky1 = "CTYSKY08"
 	music = "D_IN_CIT"
 	NoJump
 }
+
+map darksecrets "Dark Secrets XXX"
+{
+	levelnum=5
+	next="zigguratasc"
+	sky1 = "CTYSKY09"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map zigguratasc "Ziggurat Ascent"
+{
+	levelnum=6
+	next="thepool"
+	sky1 = "DNESKY02"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map thepool "The Pool"
+{
+	levelnum=7
+	next="roadofsorrows"
+	sky1 = "OSKY46"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map roadofsorrows "The Road of Sorrows"
+{
+	levelnum=8
+	next="intothemire"
+	sky1 = "OSKY49"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+
+map intothemire "Into the Mire"
+{
+	levelnum=9
+	next="urbandecay"
+	sky1 = "OSKY51"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map urbandecay "Urban Decay"
+{
+	levelnum=10
+	next="tubeworm"
+	sky1 = "CTYSKY06"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map tubeworm "Tubeworm"
+{
+	levelnum=11
+	next="scarredland"
+	sky1 = "CTYSKY08"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map scarredland "The Scarred Land"
+{
+	levelnum=12
+	next="hellsterminus"
+	sky1 = "CTYSKY08"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+
+map hellsterminus "Hell's Terminus"
+{
+	levelnum=13
+	next="impactscars"
+	sky1 = "CTYSKY01"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map impactscars "Impact Scars"
+{
+	levelnum=14
+	next="corporatenightmare"
+	sky1 = "CTYSKY06"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map corporatenightmare "Corporate Nightmare"
+{
+	levelnum=15
+	next="arachnoterror"
+	sky1 = "DNESKY02"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map arachnoterror "ArachnoTerror"
+{
+	levelnum=16
+	next="risingdoom"
+	sky1 = "REFSKY09"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+
+map risingdoom "Rising Doom"
+{
+	levelnum=17
+	next="imperceptionofdreams"
+	sky1 = "CTYSKY01"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map imperceptionofdreams "The Imperception of Dreams"
+{
+	levelnum=18
+	next="barondr"
+	sky1 = "CTYSKY06"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map barondr "Doorway to the Barony"
+{
+	levelnum=19
+	next="baronsdemesne"
+	sky1 = "CTYSKY13"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map baronsdemesne "The Barons' Demesne"
+{
+	levelnum=20
+	next="wellofsorrows"
+	sky1 = "HELLSKY1"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map wellofsorrows "Well of Sorrows"
+{
+	levelnum=21
+	next="innersanctum"
+	sky1 = "DNESKY03"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+
+map innersanctum "Inner Sanctum"
+{
+	levelnum=22
+	next="lastdarkness"
+	sky1 = "CTYSKY01"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map lastdarkness "The Last Darkness"
+{
+	levelnum=23
+	next="penultimateonslaught"
+	sky1 = "CTYSKY06"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map penultimateonslaught "Penultimate Onslaught"
+{
+	levelnum=24
+	next="triumphofnihility"
+	sky1 = "CTYSKY08"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+map triumphofnihility "The Triumph of Nihility"
+{
+	levelnum=25
+	next="MAP26"
+	sky1 = "CTYSKY08"
+	music = "D_IN_CIT"
+	NoJump
+}
+
+
